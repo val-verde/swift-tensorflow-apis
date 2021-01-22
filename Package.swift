@@ -46,7 +46,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-numerics", .branch("main")),
-    .package(url: "https://github.com/pvieito/PythonKit.git", .branch("master")),
+    .package(url: "https://github.com/val-verde/PythonKit.git", .branch("val-verde-src-update")),
   ],
   targets: [
     .target(
